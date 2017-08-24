@@ -1,0 +1,68 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "caseNr",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "caseNo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "personNr",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "companyNr",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "agiosNodeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "workflowUid",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reasons",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "statusUid",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "currentStepUid",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "evtOpen",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "displayName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "evtclose",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "agiosEntity",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170824084632",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "agios_case",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl"
+}

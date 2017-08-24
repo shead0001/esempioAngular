@@ -1,0 +1,75 @@
+
+<div>
+    <h2><span>Agios Case</span> {{vm.agiosCase.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span>Case Nr</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.caseNr}}</span>
+        </dd>
+        <dt><span>Case No</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.caseNo}}</span>
+        </dd>
+        <dt><span>Person Nr</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.personNr}}</span>
+        </dd>
+        <dt><span>Company Nr</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.companyNr}}</span>
+        </dd>
+        <dt><span>Agios Node Name</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.agiosNodeName}}</span>
+        </dd>
+        <dt><span>Workflow Uid</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.workflowUid}}</span>
+        </dd>
+        <dt><span>Reasons</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.reasons}}</span>
+        </dd>
+        <dt><span>Status Uid</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.statusUid}}</span>
+        </dd>
+        <dt><span>Current Step Uid</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.currentStepUid}}</span>
+        </dd>
+        <dt><span>Code Name</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.codeName}}</span>
+        </dd>
+        <dt><span>Evt Open</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.evtOpen}}</span>
+        </dd>
+        <dt><span>Display Name</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.displayName}}</span>
+        </dd>
+        <dt><span>Evtclose</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.evtclose}}</span>
+        </dd>
+        <dt><span>Agios Entity</span></dt>
+        <dd>
+            <span>{{vm.agiosCase.agiosEntity}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button" ui-sref="agios-case-detail.edit({id:vm.agiosCase.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down"> Edit</span>
+    </button>
+</div>
