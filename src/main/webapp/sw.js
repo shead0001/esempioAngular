@@ -1,5 +1,5 @@
-var dataCacheName = '"esempioAngularApp-v1';
-var cacheName = '"esempioAngularApp-1';
+var dataCacheName = 'EsempioAngular-v1';
+var cacheName = 'EsempioAngular-1';
 var filesToCache = [
     '/',
     '/index.html'
